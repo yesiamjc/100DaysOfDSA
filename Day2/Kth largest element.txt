@@ -1,0 +1,7 @@
+// Kth largest element
+
+sort array
+iterate from last
+have a flag==0 and increment it iteration
+if(k==flag)
+return elements
