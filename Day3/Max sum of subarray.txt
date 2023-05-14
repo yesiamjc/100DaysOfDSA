@@ -1,0 +1,13 @@
+// Max sum of subarray 
+
+set sum to 0 and max to Integer.MIN_VALUE
+
+traverse array
+
+sum=sum+nums[i]
+
+max=Math.max(max,sum)
+
+if(sum<0) sum=0
+
+return max
